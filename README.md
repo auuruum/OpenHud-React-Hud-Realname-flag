@@ -44,7 +44,7 @@ Fullfledged example of the React HUD made for HUD Manager. It has:
 
 # Download
 
-To download it just click here: [DOWNLOAD HUD](https://github.com/lexogrine/cs2-react-hud/releases/latest)
+To download it just click here: [DOWNLOAD HUD]([https://github.com/lexogrine/cs2-react-hud/releases/latest](https://github.com/auuruum/OpenHud-React-Hud-Realname-flag/releases/tag/release))
 
 # Instruction
 ## Setting up
