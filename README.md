@@ -16,14 +16,6 @@ Fullfledged example of the React HUD made for HUD Manager. It has:
 - Player cam feed
 - Custom Radar
 
-## Keybinds:
-### **Left Alt + B**
->Makes radar smaller by 20px;
-### **Left Alt + V**
->Makes radar bigger by 20px;
-### **Left Alt + C**
->Toggles camera feed
-
 ## **Panel**
 ## Trivia settings
 
