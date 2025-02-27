@@ -62,7 +62,7 @@ const Observed = ({ player }: { player: Player | null }) => {
           <div className="username_container">
             {player.country && (
               <img 
-                src={`https://flagcdn.com/24x18/${player.country.toLowerCase()}.png`}
+                src={`https://flagcdn.com/w20/${player.country.toLowerCase()}.png`}
                 alt={player.country}
                 className="country-flag"
                 width={24}
