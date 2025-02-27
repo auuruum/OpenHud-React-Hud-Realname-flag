@@ -60,7 +60,19 @@ const Observed = ({ player }: { player: Player | null }) => {
         </div>
         <div className="main_row">
           <div className="username_container">
-            <div className="username">{player.name}</div>
+            {player.country && (
+              <img 
+                src={`https://flagcdn.com/24x18/${player.country.toLowerCase()}.png`}
+                alt={player.country}
+                className="country-flag"
+                width={24}
+                height={18}
+              />
+            )}
+            <div className="names_stack">
+              <div className="username">{player.name}</div>
+              <div className="realname">{player.realName}</div>
+            </div>
           </div>
         </div>
         <div className="weapon_row">

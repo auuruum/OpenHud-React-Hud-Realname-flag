@@ -93,16 +93,32 @@
       align-items: center;
       gap: 4px;
       .username_container {
-        width: 70%;
-        height: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        .username {
-          font-weight: 600;
-          font-size: 22px;
-          color: white;
+        gap: 8px;
+        width: 100%;
+        position: relative;
+        left: 10px;
+      
+        .names_stack {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start; // Left alignment
+          
+          .username {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1;
+            margin-bottom: 2px; // Small gap between lines
+          }
+      
+          .realname {
+            font-size: 12px;
+            font-weight: 600;
+            opacity: 0.8;
+            line-height: 1;
+            width: 150px;
+          }
         }
       }
     }
